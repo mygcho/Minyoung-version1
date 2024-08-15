@@ -20,8 +20,8 @@ class About extends React.Component {
     const one = (
       <p>
         I am currently a full-time student at the <a href="https://www.washington.edu/about/?utm_source=whitebar&utm_medium=click&utm_campaign=about&utm_term=about">University of Washington</a> studying computer science within the <a href="https://www.cs.washington.edu/">Paul G. Allen School of Computer Science & Engineering</a>, and minoring in business. 
-        I am a full-time SWE intern at <a href="https://www.principal.com/about-us">Principal Financial Group</a>, working
-        in the RIS team to provide software tools for risk-free investment solutions. 
+        I recently completed a full-time SWE internship at <a href="https://www.jpmorganchase.com/">JPMorgan Chase & Co.</a>, working
+        in the Asset & Wealth Management (AWM) team to provide software tools for a private banking application. 
       </p>
     );
     const two = (
@@ -40,6 +40,9 @@ class About extends React.Component {
     const desc_items = [one, two];
 
     const tech_stack = [
+      "Python",
+      "AWS",
+      "Flask",
       "Javascript ES6+",
       "React.js",
       "Java",

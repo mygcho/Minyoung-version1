@@ -82,12 +82,20 @@ const JobList = () => {
   const [value, setValue] = React.useState(0);
 
   const experienceItems = {
-    "Principal Financial Group": {
-      jobTitle: "Software Development Engineer Intern @",
-      duration: "JUN 2023 - PRESENT",
+    "JPMorgan Chase & Co.": {
+      jobTitle: "Software Engineer Intern @",
+      duration: "JUN 2024 - AUG 2024",
       desc: [
-        "Collaborate with experienced engineers to conceive, design, and bring innovative products and services to market.",
-        "Developing an application that sits on a user desktop that gathers investment data and generates a PDF that gets published on the public Principal website. Viewable globally by internal business partners.",
+        "Developed image extraction, text summarizing, and case type classification functionalities for a private banking Python application in the Asset & Wealth Management business. Trained Hugging Face ML Models and prompted the OpenAI API to compare and gain the best case type classification accuracy. Used AWS to deploy our application onto the cloud.",
+        "Reduced workload by 72 hours per day for the whole Client Service Specialist team with new summarizing and text extraction functionalities. Currently testing in a feedback loop of 800 users.",
+        "Improved case type classification accuracy by 60 percent."
+      ]
+    },
+    "Principal Financial Group": {
+      jobTitle: "Software Engineer Intern @",
+      duration: "JUN 2023 - SEPT 2023",
+      desc: [
+        "Developed an application that sits on a user desktop that gathers investment data and generates a PDF that gets published on the public Principal website. Viewable globally by internal business partners.",
         "Typescript, Java, and JavaScript based application, using Spring framework, REST calls, CMPsUI on React, APIS, Java Batch, and Java store (STPS). Project database is DB2."
       ]
     },
