@@ -74,7 +74,7 @@ class About extends React.Component {
               {[two]}
             </div>
             <div className="about-image">
-              <img src={"/assets/IMG_7117.jpg"} />
+              <img src={"/assets/IMG_7117.jpg"} alt="A photo of Minyoung Cho. She has black hair, brown eyes, and is lightly smiling at the camera with her lips closed. She is wearing a white button-up cardigan with a light-green forest background." />
             </div>
           </div>
         </FadeInSection>
